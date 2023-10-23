@@ -8,5 +8,5 @@ drobnej scammik o kreditku v objednavkovym formulari
 
 kontaktni formular
 
-udelat zapati dole tam dat link na https://emfa.pro
+udelat zapati dole tam dat link na https://emfa.pro [mozna]
 
