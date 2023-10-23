@@ -10,3 +10,4 @@ kontaktni formular
 
 udelat zapati dole tam dat link na https://emfa.pro [mozna]
 
+do footeru dat ikonky pres <a><img></a>
