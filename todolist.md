@@ -13,3 +13,5 @@ udelat zapati dole tam dat link na https://emfa.pro [mozna]
 do footeru dat ikonky pres <a><img></a>
 
 dat vsechno zpet do <body>, protoze se pri otevreni stranky spawnu uprostred
+
+dat href do nabidek produkty a kontakt v navbaru
