@@ -21,3 +21,5 @@ pridat trash notebooky a telefony do nabidky produktu [mozna]
 dat vse na srv do nginxu a nastavit cloudflare na keyvault.shop
 
 odevzdat linky do classroomu a napsat sebehodnoceni (nesrat se s tim, neucim se cestinu ale html)
+
+upravit vsechny tlacitka "ukrast" na "koupit"
