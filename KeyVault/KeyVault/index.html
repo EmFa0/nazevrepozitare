@@ -6,68 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KeyVault</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <style>
-        body {
-            background-color: rgb(196, 196, 196);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-        #content-container {
-            text-align: center;
-        }
+    <link rel="stylesheet" href="styles.css">
+        <style>
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Font2:wght@400;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <table style="width: 100%; height: 50px; background-color: #616161; margin-top: 0px; margin-left: 0;" border="0">
-        <tr>
-            <th style="height: 40%;"><a href="./UPRAVIT.html"><button style="margin-top: 0;">Produkty</button></a></th>
-            <th style="height: 40%;"><a href="./UPRAVIT.html"><button style="margin-top: 0;">Produkty</button></a></th>
-            <th style="height: 40%;"><a href="./UPRAVIT.html"><button style="margin-top: 0;">Produkty</button></a></th>
-        </tr>
+    <body>
+        <table class="navtabule">
+            <tr>
+                <th style="height: 40%;">
+                    <td style="text-allign: right;">
+                        <a href="./index.html"><img src="./images/favicon.ico" style="margin-left: 30px; height: 50px;"></a>
+                    </td>
+                    <td style="text-align: right;">
+                        <a href="./index.html#produktoveklice" class="pklice-link nav">PRODUKTY</a>
+                        <a href="./kontakt.html" class="kont-link nav">KOKTAKT</a>
+                        <a href="./o_nas.html" class="onas-link nav">O NÁS</a>
+                    </td>
+                </th>
+            </tr>
+            
+        </table>
+    </body>
+    
+        <p style="margin-top: 20px;"></p>
     </table>
 
+
+    <nav>
+        <div>
+        <ul>
+        <a href="./index.html#produktoveklice" class="pklice-link" style="margin-top: 0px;">PRODUKTY</a>
+        <a href="./kontakt.html" class="pklice-link">KOKTAKT</a>
+        <a href="./o_nas.html" class="onas-link" style="">O NÁS</a>
+    </ul>
+    </nav>
+    
+
     <div id="content-container">
-        <h1 style="margin-top: 100px;"><u>KeyVault</u></h1>
+        <h1 class="nazevnadpis" style="">KeyVault</h1>
         <br>
-        <b>Necrackuj a podpoř developery</b>
+        <b class="nadpispopis" style="">Necrackuj a podpoř developery</b>
         <br>
-        <p style="margin-top: 170px;"></p>
+        <p style="margin-top: 60px;"></p>
     
     
-        <table style="margin-left: 0px;" border="0">
+
+
+
+
+
+
+
+
+        <table style="" class="flexgrowprikladidk tabulkaobsah">
         <td>
-        <b><h2>Produktové klíče</h2></b>
+        <p id="produktoveklice"></p>
+        <b><h2 class="pklicenadpis" style="">Produktové Klíče</h2></b>
         <p style="margin-top: 40px;"></p>
-        <p>Zcela nové a naprosto legální klíče k různému <s>odpadnímu</s> softwaru</p>
-        <p>Určitě dostanete licenční klíč na Váš email po platbě </p>
-        <p style="margin-top: 80px;"></p>
+        <p class="fontroboto" style="">Zcela nové a naprosto legální klíče k různému <s>odpadnímu</s> softwaru</p>
+        <p class="fontroboto" style="">Určitě dostanete licenční klíč na Váš email po platbě </p>
+        <p style="margin-top: 60px;"></p>
+
+
+
+        <hr class="divid">
+        <b><h3 class="oska" style="">Operační systémy</h3></b>
+
+
 
 
 
         <br>
-        <b><u>Windows 11 Home</u></b>
-        <br>
-        <p style="margin-top: 30px;">420 CZK</p>
+        <p style="font-family: 'Lato', sans-serif; font-size: 18px; margin-top: 40px;"><b>Windows 11</b></p>
+        <p style="font-family: sans-serif; margin-top: 30px; font-size: 13px;">449.99 CZK</p>
         <br style="margin-top: 15px;">
         <img src="./images/win11.png" alt="Windows 11 sux" height="100">
         <br>
-        <a href="./win11.html"><button style="margin-top: 30px;">Ukrást</button></a>
+        <a href="./koupit.html"><button style="margin-top: 30px;">Koupit</button></a>
         <br>
 
 
 
         <p style="margin-top: 105px;"></p>
-        <b><u>Windows 8.1</u></b>
-        <p style="margin-top: 30px;">399 CZK</p>
+        <p style="font-family: 'Lato', sans-serif; font-size: 18px;"><b>Windows 8.1</b></p>
+        <p style="font-family: sans-serif; margin-top: 30px; font-size: 13px;">399.99 CZK</p>
         <p style="margin-top: 40px;"></p>
         <img src="./images/win8.png" alt="Windows 8.1 je pro tablety a ne pro pocitace" height="100">
         <br>
-        <a href="./win8.html"><button style="margin-top: 30px;">Ukrást</button></a>
+        <a href="./koupit.html"><button style="margin-top: 30px;">Koupit</button></a>
         <br>
 
 
@@ -115,27 +151,100 @@
 
 
 
+        <hr class="divid">
+        <b><h4 style="font-family: 'Lato', sans-serif; font-size: 20px;">Antivirové Programy</h4></b>
 
 
-        <p style="margin-top: 105px;"></p>
-        <b><u>CCleaner</u></b>
-        <p style="margin-top: 30px;">799,99 CZK</p>
+
+        <p style="font-family: 'Lato', sans-serif; font-size: 18px; margin-top: 80px;"><b>CCleaner</b></p>
+        <p style="font-family: sans-serif; margin-top: 30px; font-size: 13px;">849.99 CZK</p>
         <p style="margin-top: 40px;"></p>
         <img src="./images/shitcleaner.png" alt="ccleaner je malware" height="100">
         <br>
-        <a href="./ccleaner.html"><button style="margin-top: 30px;">Ukrást</button></a>
+        <a href="./koupit.html"><button style="margin-top: 30px;">Koupit</button></a>
         <br>
 
 
 
         <p style="margin-top: 105px;"></p>
-        <b><u>Avast</u></b>
-        <p style="margin-top: 30px;">642,83 CZK</p>
+        <p style="font-family: 'Lato', sans-serif; font-size: 18px;"><b>Avast</b></p>
+        <p style="font-family: sans-serif; margin-top: 30px; font-size: 13px;">699.99 CZK</p>
         <p style="margin-top: 40px;"></p>
         <img src="./images/avast.png" alt="avast obrazek lol" height="100">
         <br>
-        <a href="./avast.html"><button style="margin-top: 30px;">Ukrást</button></a>
+        <a href="./koupit.html"><button style="margin-top: 30px;">Koupit</button></a>
         <br>
+
+
+        <p style="margin-top: 105px;"></p>
+        <p style="font-family: 'Lato', sans-serif; font-size: 18px;"><b>AVG Antivirus</b></p>
+        <p style="font-family: sans-serif; margin-top: 30px; font-size: 13px;">579.99 CZK</p>
+        <p style="margin-top: 40px;"></p>
+        <img src="./images/avg.png" alt="avg obrazek nenapada me nic vtipnyho" height="100">
+        <br>
+        <a href="./koupit.html"><button style="margin-top: 30px;">Koupit</button></a>
+        <br>
+
+
+        <p style="margin-top: 105px;"></p>
+        <p style="font-family: 'Lato', sans-serif; font-size: 18px;"><b>Wise Care 356 PRO</b></p>
+        <p style="font-family: sans-serif; margin-top: 30px; font-size: 13px;">119.99 CZK</p>
+        <p style="margin-top: 40px;"></p>
+        <img src="./images/wysere_365_pro.png" alt="wysere 365 pro" height="120">
+        <br>
+        <a href="./koupit.html"><button style="margin-top: 30px;">Koupit</button></a>
+        <br>
+
+
+
+
+
+
+        <b><h2 style="font-family: 'Lato', sans-serif; margin-top: 250px;">Programy zdarma ke stažení</h2></b>
+        <p style="margin-top: 40px;"></p>
+        <p style="font-family: 'Roboto', sans-serif;">Tyto programy jsou tak <s>špatné</s> užitečné,</p>
+        <p style="font-family: 'Roboto', sans-serif;">že <s>telemetrie jim vydělá víc jak kdyby byly placený</s> si je zamilujete</p>
+        <p style="margin-top: 60px;"></p>
+
+
+        
+        <hr class="divid">
+        <b><h4 style="font-family: 'Lato', sans-serif; font-size: 20px;">Webové Prohlížeče</h4></b>
+
+
+
+        <p style="font-family: 'Lato', sans-serif; font-size: 18px; margin-top: 90px;"><b>Opera Browser</b></p>
+        <p style="font-family: sans-serif; margin-top: 30px; font-size: 13px;"></p>
+        <p style="margin-top: 40px;"></p>
+        <img src="./images/opera.png" alt="omg ja se zastrelim ze to sem vubec musim davat tpc" height="70">
+        <br>
+        <a href="./downloads/opera.exe"><button style="margin-top: 30px;">Stáhnout</button></a>
+        <br>
+
+
+
+        <p style="margin-top: 105px;"></p>
+        <p style="font-family: 'Lato', sans-serif; font-size: 18px;"><b>Microsoft Edge</b></p>
+        <p style="font-family: sans-serif; margin-top: 30px; font-size: 13px;"></p>
+        <p style="margin-top: 40px;"></p>
+        <img src="./images/msedge.png" alt="dobry pro instalaci firefoxu" height="60">
+        <br>
+        <a href="./downloads/msedge.exe"><button style="margin-top: 30px;">Stáhnout</button></a>
+        <br>
+
+
+        <p style="margin-top: 105px;"></p>
+        <p style="font-family: 'Lato', sans-serif; font-size: 18px;"><b>Yandex Browser</b></p>
+        <p style="font-family: sans-serif; margin-top: 30px; font-size: 13px;"></p>
+        <p style="margin-top: 40px;"></p>
+        <img src="./images/yandex.png" alt="miluju kdyz musim posilat svoje osobni udaje do ruska" height="60">
+        <br>
+        <a href="./downloads/yandsex.exe"><button style="margin-top: 30px;">Stáhnout</button></a>
+        <br>
+
+
+
+
     <br>
     </td>
     
@@ -153,5 +262,62 @@
         
 
     </div>
+
+
+
+
+
+
+
+    <p style="margin-top: 140px;"></p>
+    <table style="width: 100%; height: 500px; background-color: #333333; margin-top: 10px; margin-left: 0; top: 0" border="0">
+        <tr>
+            <th style="height: 40%;">
+
+                <td style="text-align: center;">
+                    <h2 style="font-family: 'normalnifont', sans-serif; margin-left: 0px; margin-top: 140px; text-decoration: none; color: rgb(255, 255, 255); background-size: 300px 100px;">KeyVault</h2>
+
+                    <p style="font-family: 'normalnifont', sans-serif; margin-left: 0px; margin-top: 50px; text-decoration: none; color: rgb(255, 255, 255); background-size: 300px 100px;">Naší <b>klíčovou</b> prioritou je udělat zákazníka spokojeným,</p>
+                    <p style="font-family: 'normalnifont', sans-serif; margin-left: 0px; margin-top: 0px; text-decoration: none; color: rgb(255, 255, 255); background-size: 300px 100px;">a nabídnout <s>malware</s> užitečný software za skvělou cenu!</p>
+                    <p style="margin-top: 30px;"></p>
+                    <a href="./smluvnipodminky.html" style="font-family: 'normalnifont', sans-serif; margin-left: 0px; text-decoration: none; color: rgb(255, 255, 255); background-size: 300px 100px;"><u>Smluvní podmínky</u></a>
+                    <br>
+
+
+                </td>
+            </th>
+        </tr>
+
+
+
+        <tr>
+            <th style="height: 40%;">
+
+                <td style="text-align: center; vertical-align:bottom;">
+
+                    <p style="font-family: 'normalnifont', sans-serif; margin-left: 0px; margin-top: 50px; text-decoration: none; color: rgb(255, 255, 255); background-size: 300px 100px;">© Projekt na PVy ┃ Vytvořil <a href="https://emfa.pro" style="font-family: 'normalnifont', sans-serif; margin-left: 0px; text-decoration: none; color: rgb(255, 255, 255); background-size: 300px 100px;"><u>emfa.pro</u></a></p>
+                    <p style="margin-top: 40px;"></p>
+
+
+                </td>
+            </th>
+        </tr>
+   
+    </table>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</table>
+
+
 </body>
 </html>
