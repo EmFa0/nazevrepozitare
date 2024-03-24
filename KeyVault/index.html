@@ -6,19 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KeyVault</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <style>
-        body {
-            background-color: rgb(255, 255, 255);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-        #content-container {
-            text-align: center;
-        }
+    <link rel="stylesheet" href="styles.css">
+        <style>
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,16 +21,16 @@
 
 <body>
     <body>
-        <table style="border-radius: 10px; width: 97%; height: 90px; background-color: #4170F4; margin-top: 30px; margin-left: 0; top: 0" border="0">
+        <table class="navtabule">
             <tr>
                 <th style="height: 40%;">
                     <td style="text-allign: right;">
                         <a href="./index.html"><img src="./images/favicon.ico" style="margin-left: 30px; height: 50px;"></a>
                     </td>
                     <td style="text-align: right;">
-                        <a href="./index.html#produktoveklice" style="font-family: 'Lato', sans-serif; margin-left: 30px; text-decoration: none; color: rgb(255, 255, 255); background-size: 300px 100px;">PRODUKTY</a>
-                        <a href="./kontakt.html" style="font-family: 'Lato', sans-serif; margin-left: 30px; text-decoration: none; color: rgb(255, 255, 255); background-size: 300px 100px;">KOKTAKT</a>
-                        <a href="./o_nas.html" style="font-family: 'Lato', sans-serif; margin-left: 30px; margin-right: 60px; text-decoration: none; color: rgb(255, 255, 255); background-size: 300px 100px;">O NÁS</a>
+                        <a href="./index.html#produktoveklice" class="pklice-link nav">PRODUKTY</a>
+                        <a href="./kontakt.html" class="kont-link nav">KOKTAKT</a>
+                        <a href="./o_nas.html" class="onas-link nav">O NÁS</a>
                     </td>
                 </th>
             </tr>
@@ -51,12 +40,22 @@
     
         <p style="margin-top: 20px;"></p>
     </table>
+
+
+    <nav>
+        <div>
+        <ul>
+        <a href="./index.html#produktoveklice" class="pklice-link" style="margin-top: 0px;">PRODUKTY</a>
+        <a href="./kontakt.html" class="pklice-link">KOKTAKT</a>
+        <a href="./o_nas.html" class="onas-link" style="">O NÁS</a>
+    </ul>
+    </nav>
     
 
     <div id="content-container">
-        <h1 style="font-family: 'Lato', sans-serif; margin-top: 100px; font-size: 50px;">KeyVault</h1>
+        <h1 class="nazevnadpis" style="">KeyVault</h1>
         <br>
-        <b style="font-family: 'normalnifont', sans-serif;">Necrackuj a podpoř developery</b>
+        <b class="nadpispopis" style="">Necrackuj a podpoř developery</b>
         <br>
         <p style="margin-top: 60px;"></p>
     
@@ -69,19 +68,19 @@
 
 
 
-        <table style="margin-left: 0px;" border="0">
+        <table style="" class="flexgrowprikladidk tabulkaobsah">
         <td>
         <p id="produktoveklice"></p>
-        <b><h2 style="font-family: 'Lato', sans-serif; margin-top: 120px;">Produktové Klíče</h2></b>
+        <b><h2 class="pklicenadpis" style="">Produktové Klíče</h2></b>
         <p style="margin-top: 40px;"></p>
-        <p style="font-family: 'Roboto', sans-serif;">Zcela nové a naprosto legální klíče k různému <s>odpadnímu</s> softwaru</p>
-        <p style="font-family: 'Roboto', sans-serif;">Určitě dostanete licenční klíč na Váš email po platbě </p>
+        <p class="fontroboto" style="">Zcela nové a naprosto legální klíče k různému <s>odpadnímu</s> softwaru</p>
+        <p class="fontroboto" style="">Určitě dostanete licenční klíč na Váš email po platbě </p>
         <p style="margin-top: 60px;"></p>
 
 
 
-        <hr style="background-color: #333333; border-radius: 10px; height:3px; width:5%; margin-top: 144px;">
-        <b><h3 style="font-family: 'Lato', sans-serif; font-size: 20px;">Operační systémy</h3></b>
+        <hr class="divid">
+        <b><h3 class="oska" style="">Operační systémy</h3></b>
 
 
 
@@ -152,7 +151,7 @@
 
 
 
-        <hr style="background-color: #333333; border-radius: 10px; height:3px; width:5%; margin-top: 160px;">
+        <hr class="divid">
         <b><h4 style="font-family: 'Lato', sans-serif; font-size: 20px;">Antivirové Programy</h4></b>
 
 
@@ -209,7 +208,7 @@
 
 
         
-        <hr style="background-color: #333333; border-radius: 10px; height:3px; width:5%; margin-top: 160px;">
+        <hr class="divid">
         <b><h4 style="font-family: 'Lato', sans-serif; font-size: 20px;">Webové Prohlížeče</h4></b>
 
 
