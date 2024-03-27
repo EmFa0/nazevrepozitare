@@ -102,11 +102,11 @@ body {
 
 
 
-@media only screen and (max-width:450px) {
+@media only screen and (max-width:500px) {
 
 
  .navbutres {
-font-size: smaller
+font-size: 70%
 }
 
 
@@ -115,4 +115,9 @@ font-size: smaller
 }
 
 
+
 }
+
+
+
+
