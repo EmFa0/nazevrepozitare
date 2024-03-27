@@ -94,3 +94,25 @@ body {
     border: 0;
 
 }
+
+.logores {
+    margin-left: 0px; 
+    height: 50px;
+}
+
+
+
+@media only screen and (max-width:450px) {
+
+
+ .navbutres {
+font-size: smaller
+}
+
+
+.logores {
+    height: 10000px;
+}
+
+
+}
