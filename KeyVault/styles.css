@@ -100,6 +100,290 @@ body {
     height: 50px;
 }
 
+.td1main1 {
+    text-allign: right;
+}
+
+.th1main1 {
+    height: 40%;
+}
+
+.logolink {
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.tdnav1main1 {
+    text-align: right;
+}
+
+.mezera1 {
+    margin-top: 20px;
+}
+
+.mezera2 {
+    margin-top: 60px;
+}
+
+.mezera3 {
+    margin-top: 40px;
+}
+
+.mezera4 {
+    margin-top: 60px;
+}
+
+.win11nadp {
+    font-family: 'Lato', sans-serif; font-size: 18px; margin-top: 40px;
+}
+
+.win11cena {
+    font-family: sans-serif; margin-top: 30px; font-size: 13px;
+}
+
+.brwin11 {
+    margin-top: 15px;
+}
+
+.koupitbt {
+    margin-top: 30px;
+}
+
+.mez5 {
+    margin-top: 105px;
+}
+
+.win8nadp {
+    font-family: 'Lato', sans-serif; font-size: 18px;
+}
+
+.win8cena {
+    font-family: sans-serif; margin-top: 30px; font-size: 13px;
+}
+
+.win8koup {
+    margin-top: 30px;
+}
+
+.porovwinnadp {
+    margin-top: 100px;
+}
+
+.tabporovwin {
+    margin-bottom: 0px; margin-right: 0px;
+}
+
+.avnadp {
+    font-family: 'Lato', sans-serif; font-size: 20px;
+}
+
+.ccl {
+    font-family: 'Lato', sans-serif; font-size: 18px; margin-top: 80px;
+}
+
+.cclcena {
+    font-family: sans-serif; margin-top: 30px; font-size: 13px;
+}
+
+.mez6 {
+    margin-top: 40px;
+}
+
+.cclkoup {
+    margin-top: 30px;
+}
+
+.mez7 {
+    margin-top: 105px;
+}
+
+.avanadp {
+    font-family: 'Lato', sans-serif; font-size: 18px;
+}
+
+.avacen {
+    font-family: sans-serif; margin-top: 30px; font-size: 13px;
+}
+
+.mez8 {
+    margin-top: 40px;
+}
+
+.avakoup {
+    margin-top: 30px;
+}
+
+.mez9 {
+    margin-top: 105px;
+}
+
+.avgnadp {
+    font-family: 'Lato', sans-serif; font-size: 18px;
+}
+
+.avgcen {
+    font-family: sans-serif; margin-top: 30px; font-size: 13px;
+}
+
+.mez10 {
+    margin-top: 40px;
+}
+
+.avgkoup {
+    margin-top: 30px;
+}
+
+.mez11 {
+    margin-top: 105px;
+}
+
+.wisnad {
+    font-family: 'Lato', sans-serif; font-size: 18px;
+}
+
+.wiscen {
+    font-family: sans-serif; margin-top: 30px; font-size: 13px;
+}
+
+.mez12 {
+    margin-top: 40px;
+}
+
+.wiskou {
+    margin-top: 30px;
+}
+
+.progdownnadp {
+    font-family: 'Lato', sans-serif; margin-top: 250px;
+}
+
+.mez13 {
+    margin-top: 40px;
+}
+
+.progpop1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.progpop2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mez14 {
+    margin-top: 60px;
+}
+
+.webnadp {
+    font-family: 'Lato', sans-serif; font-size: 20px;
+}
+
+.openadp {
+    font-family: 'Lato', sans-serif; font-size: 18px; margin-top: 90px;
+}
+
+.mez15 {
+    font-family: sans-serif; margin-top: 30px; font-size: 13px;
+}
+
+.mez16 {
+    margin-top: 40px;
+}
+
+.opedown {
+    margin-top: 30px;
+}
+
+.mez17 {
+    margin-top: 105px;
+}
+
+.msednadp {
+    font-family: 'Lato', sans-serif; font-size: 18px;
+}
+
+.mez18 {
+    font-family: sans-serif; margin-top: 30px; font-size: 13px;
+}
+
+.mez19 {
+    margin-top: 40px;
+}
+
+.mseddown {
+    margin-top: 30px;
+}
+
+.mez20 {
+    margin-top: 105px;
+}
+
+.yannadp {
+    font-family: 'Lato', sans-serif; font-size: 18px;
+}
+
+.p1 {
+    font-family: sans-serif; margin-top: 30px; font-size: 13px;
+}
+
+.mez21 {
+    margin-top: 40px;
+}
+
+.yandown {
+    margin-top: 30px;
+}
+
+.tabfot {
+    width: 100%; height: 500px; background-color: #333333; margin-top: 10px; margin-left: 0; top: 0
+}
+
+.mez22 {
+    margin-top: 140px;
+}
+
+.th2 {
+    height: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width:500px) {
@@ -120,4 +404,13 @@ font-size: 70%
 
 
 
+@keyframes test {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.send-animate {
+    animation: 2s test, 2s test;
+    animation-fill-mode: backwards;
+}
 
